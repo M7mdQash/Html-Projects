@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mohammad Kashkari's CV</title>
+    </head>
+    <!--man just use a gawd damn div your shit looks like ass-->
+    <style>
+        title{
+            width: 100%;
+            color: aqua;
+
+        }
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .parent{
+            width: 100%;
+            height: 100vh;
+            overflow-y: scroll;
+            scroll-snap-type: y mandatory;
+        }
+        .section {
+            width: 100%;
+            height: 100vh;
+
+            scroll-snap-align: start;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5em;
+            padding: 20px;
+            overflow-y: scroll;
+            scroll-snap-align: start;
+        }
+        #header-section {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2px;
+            background: linear-gradient(to right, rgb(93, 147, 194), rgb(201, 150, 242));
+            color: #fff; 
+            height: 100%;
+        }
+        #education-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2px;
+        height: 100%;
+        background: linear-gradient(to left, rgb(123, 53, 166), rgb(166, 53, 132));
+        color: #333; /* Set text color to a suitable color */
+         }
+         #work-experience-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 2px;
+        background: linear-gradient(to right, rgb(93, 147, 194), rgb(201, 150, 242));
+    }
+
+        #skills-section {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2px;
+            background: linear-gradient(to right, rgb(93, 147, 194), rgb(201, 150, 242));
+        }
+
+        #projects-section {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2px;
+            background: linear-gradient(to right, rgb(93, 147, 194), rgb(201, 150, 242));
+        }
+
+        #contact-section {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 2px;
+            background: linear-gradient(to right, rgb(93, 147, 194), rgb(201, 150, 242));
+        }
+        h1 {
+            color: #333;
+            margin: 5px 0;
+        }
+
+        p {
+            color: #000000;
+            margin: 5px 0;
+        }   
+        
+        section {
+            width: 45%;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #ce3333d8;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+    <body>
+
+        <div class="parent">
+    
+            <div id="header-section" class="section">
+                <header>
+                    <h1>Mohammad Kashkari</h1>
+                    <p>Web Developer & CS student</p>
+                </header>
+            </div>
+    
+            
+    
+            <div id="education-section" class="section">
+                <section>
+                    <h2>Education</h2>
+                    <p><strong>Degree in Computer Science</strong></p>
+                    <p>Umm Al Qura University, Mecca, Kingdom of Saudi Arabia</p>
+                    <p>Graduation Year: 2025</p>
+                </section>
+            </div>
+    
+            <div id="work-experience-section" class="section">
+                <section>
+                    <h2>Work Experience</h2>
+    
+                    <article>
+                        <h3>Intern, Web Development</h3>
+                        <p>Another Company, City, Country</p>
+                        <p>Start Date - End Date</p>
+                        <ul>
+                            <li>Assisted in the design and development of responsive web interfaces.</li>
+                            <li>Worked on bug fixing and improving website performance.</li>
+                            <li>Gained hands-on experience with popular front-end frameworks.</li>
+                        </ul>
+                    </article>
+                </section>
+            </div>
+    
+            <div id="skills-section" class="section">
+                <section>
+                    <h2>Skills</h2>
+                    <ul>
+                        <li>HTML5, CSS3, JavaScript</li>
+                        <li>Java, java swing</li>
+                        <li>Node.js.</li>
+                        <li>Git, GitHub</li>
+                        <li>Responsive Web Design</li>
+                    </ul>
+                </section>
+            </div>
+    
+            <div id="projects-section" class="section">
+                <section>
+                    <h2>Projects</h2>
+    
+                    <article>
+                        <h3>Java swing drawing app</h3>
+                        <p>Developed a personal art programm to showcase java swing abilities.</p>
+                        <p>GitHub Repository: <a href="https://github.com/M7mdQash/CG-project">Link</a> </p>
+                    </article>
+    
+                    <article>
+                        <h3>Javascript basic library</h3>
+                        <p>Built a basic library for javascript.</p>
+                        <p>GitHub Repository:<a href="https://github.com/M7mdQash/javascript-101-practice">Link</a></p>
+                    </article>
+                </section>
+            </div>
+            <div id="contact-section" class="section">
+                <section>
+                    <h2>Contact Information</h2>
+                    <p>Email: S443003805@st.uqu.edu.sa</p>
+                    <p>Phone: (966) 541090164</p>
+                    <p>My linkedin:<a href="https://www.linkedin.com/home?trk=nav_responsive_tab_home/tl">linkedin</a></p>
+                    <p>My github page:<a href="https://github.com/M7mdQash">Link</a></p>
+                </section>
+            </div>
+        </div>
+    
+    </body>
+    
+</html>
